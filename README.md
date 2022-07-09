@@ -6,33 +6,26 @@
 这个小程序可以通过搜索公司全称 获取企业架构，公司名称，网站地址，电话，邮箱。 备案信息，投资，控股，分支。
 
 ## 使用步骤
-在aqc 登陆自己的账号 然后复制header头信息到cookie.json 文件里面 代码会自动读取设置请求头信息
+在aqc 登陆自己的账号 然后复制Cookie信息到cookie.json 文件里面 代码会自动读取设置
 
 
-## bug 或者后续优化 看需求吧 用的少
+## 更新内容
 
-### 程序运行截图
-![RUNOOB 图标](https://github.com/gubeihc/aiqicha_pac/blob/main/image/run.png)
-
-
-![RUNOOB 图标](https://github.com/gubeihc/aiqicha_pac/blob/main/image/start.png)
-
-
-
-![RUNOOB 图标](https://github.com/gubeihc/aiqicha_pac/blob/main/image/save.png)
+不需要使用一次复制一次cookie 
+使用步骤全在文件里面
+有bug 联系我
 
 
 
+## 使用方法
 
+aqc -key xxx有限公司   这里最好是全称 可以获取 公司基本信息，和备案， 附带控股公司，分支机构，投资公司
 
+aqc -file pid.txt 这里是所有控股，分支机构，投资的pid号， 然后 获取的 公司基本信息，公司名称，网站地址，电话，邮箱，备案
 
 
 
 
 
-
-### 待更新
-1，高级会员搜索存在网站参数
-2，批量请求企业架构详情
 
 
